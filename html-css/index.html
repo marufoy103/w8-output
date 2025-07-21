@@ -48,12 +48,12 @@
 
 
 
-    <div class="login-container">
+    <div class="login-container" >
         <h1>Sign in to your account</h1>
-        <form>
+        <form id="login-form">
           <div class="form-group">
-            <label for="username">Your email</label>
-            <input type="text" id="username" name="username" required>
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email" required>
           </div>
           <div class="form-group">
             <label for="password">Password</label>
@@ -65,5 +65,7 @@
           </div>
         </form>
       </div>
+
+      <script src="../database/app.js"></script>
 </body>
 </html>
